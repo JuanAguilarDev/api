@@ -11,7 +11,7 @@ button.addEventListener('click', () => {
 
     
 
-getPokemons(value, 'pokemon').then(data => {
+getPokemons(value, attribute).then(data => {
     console.log('aqui')
     if(attribute == 'pokemon'){
         let name = document.createTextNode(data.name);
