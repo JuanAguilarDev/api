@@ -1,4 +1,14 @@
-let section = document.getElementsByClassName('pokemons'); 
+let button = document.getElementById('send');
+let section = document.getElementsByClassName('pokemons');
+let attribute;
+let value;
+
+button.addEventListener('click', () => {
+    attribute = document.getElementsByName('drone').value;
+    value = document.getElementById('txtBuscar');
+    
+    console.log(value);
+})
 
 const getPokemons = async(value, attribute) => {
     const url = attribute == 'pokemon' ? `https://pokeapi.co/api/v2/pokemon/${value}` : `https://pokeapi.co/api/v2/pokedex/${value}`
