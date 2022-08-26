@@ -36,3 +36,14 @@ getPokemons('2', 'pokedex').then(data => {
     }
     
 });
+
+function getSelectedSearch(){
+    let rates = document.getElementsByName('drone');
+    let rate_value;
+    for(var i = 0; i < rates.length; i++){
+        if(rates[i].checked){
+            rate_value = rates[i].value;
+         }
+    }
+    return rate_value
+}

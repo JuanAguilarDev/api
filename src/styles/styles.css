@@ -98,6 +98,7 @@ h1{
     place-content: center;
     align-items: center;
     border: none;
+    width: 85%;
 }
 .radios div{
     width: fit-content;
