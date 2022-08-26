@@ -1,12 +1,11 @@
-let button = document.getElementById('send');
+let button = document.getElementById('btbBuscar');
 let section = document.getElementsByClassName('pokemons');
 let attribute;
 let value;
 
 button.addEventListener('click', () => {
     attribute = document.getElementsByName('drone').value;
-    value = document.getElementById('txtBuscar');
-    
+    value = document.getElementById('txtBuscar').value;    
     console.log(value);
 })
 
