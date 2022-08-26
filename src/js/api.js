@@ -22,7 +22,7 @@ getPokemons(value, 'pokemon').then(data => {
         img.className = 'pokemon-img';
         let p = document.createElement('p');
         p.appendChild(name);
-        p.className = 'pokemon-name';
+        p.className = 'pokmeon-name';
         div.appendChild(img);
         div.appendChild(p);
         div.className = 'pokemon';
