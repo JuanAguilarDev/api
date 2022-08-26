@@ -10,7 +10,6 @@ button.addEventListener('click', () => {
     
 
 getPokemons(value, attribute).then(data => {
-    console.log('aqui')
     if(attribute == 'pokemon'){
         let name = document.createTextNode(data.name);
         let sprite = data.sprites.back_default;   
