@@ -1,0 +1,79 @@
+:root{
+    --tierraPokemon: #C4E3D4;
+
+    --primaryFont: 'Source Sans Pro', sans-serif;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--primaryFont);
+}
+
+body{
+    font-size: 1.6rem;
+    margin: 20px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 10px 0;
+    color: #2E3057;
+}
+
+.label{
+    color: #87899F;
+}
+
+.pokemons{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    place-items: center;
+    align-items: center;
+}
+
+.pokemon{
+    width: 250px;
+    height: 320px;
+    background-color: var(--tierraPokemon);
+    display: grid;
+    place-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.pokmeon-name{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pokemons-id{
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+
+.pokemon-img{
+    max-width: 160px;
+}
+
+.search{
+    
+}
+
+input{
+    margin: 20px;
+    outline: none;
+    width: 60%;
+    height: 40px;
+}
