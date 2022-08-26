@@ -6,8 +6,6 @@ let value;
 button.addEventListener('click', () => {
     attribute = getSelectedSearch();
     value = document.getElementById('txtBuscar').value;    
-    console.log(value);
-    console.log(attribute);
 
     
 
