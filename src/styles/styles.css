@@ -115,7 +115,7 @@ main{
     background-color: white;
     padding: 40px;
     border-radius: 20px;
-    max-width: 590px;
+    width: 590px;
 }
 
 .buscar{
